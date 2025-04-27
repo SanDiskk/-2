@@ -13449,12 +13449,14 @@ MonoBehaviour:
   speed: 6
   jumpForce: 19
   rb: {fileID: 1132370395}
+  fallThreshold: -23
   onGround: 0
   CheckGround: {fileID: 1015165644}
   checkRadius: 0.3
   Ground:
     serializedVersion: 2
     m_Bits: 64
+  anim: {fileID: 0}
 --- !u!70 &1132370397
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -13544,7 +13546,7 @@ SpriteRenderer:
   m_Size: {x: 0.23, y: 0.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1132370399
